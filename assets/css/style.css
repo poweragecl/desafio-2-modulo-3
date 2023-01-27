@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #f8f8f8;
+}
+
+.wrapper{
+    margin: 45px auto;
+    width: 1080px;
+}
+
+section{
+    margin-bottom: 24px;
+    background-color: #fff;
+    padding: 42px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap : 25px;
+}
+
+h2{
+    font-size: 22px;
+}
+
+#clickeable-image{
+    border-radius: 500px;
+    width: 250px;
+    height: 250px;
+    cursor: pointer;
+}
+
+
+#clickeable-image.addBorder{
+    border: 2px solid red;
+}
+
+.stickers{
+    display: flex;
+    gap: 45px;
+}
+
+.sticker{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.sticker input{
+    padding: 8px;
+    font-size: 18px;
+}
+
+.password-inputs{
+    display: flex;
+    justify-content: center;
+}
+
+.password-inputs input{
+    max-width: 90px;
+    padding: 12px; 
+    font-size: 24px;
+}
+
+
+#login{
+    padding: 12px 103px;  
+    margin: 24px auto;
+    border: 0;
+    background-color: crimson;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+
+}
+
+.buttons-container{
+    display: flex;
+    gap: 15px;
+}
+
+.stickers-btn-clear{
+    padding: 12px 45px; 
+    margin-top: 24px;
+    border: 0;
+    background-color: #fff;
+    border: 1px solid cornflowerblue;
+    color: cornflowerblue;
+    font-size: 18px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.stickers-btn{
+    padding: 12px 45px; 
+    margin-top: 24px;
+    border: 1px solid transparent;
+    background-color: cornflowerblue;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.stickers-alert, .login-alert{
+    font-size: 24px;
+    margin-top: 12px;
+    text-align: center;
+}
+
+.stickers-alert.success , .login-alert.success{
+    color: green;
+}
+
+.stickers-alert.error, .login-alert.error{
+    color: red;
+}

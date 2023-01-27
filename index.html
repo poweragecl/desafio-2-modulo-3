@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
+
+    <script src="assets/js/scripts.js" defer></script>
+</head>
+<body>
+    
+
+    <div class="wrapper">
+
+        <section class="part_1">
+            <h2>Clickea la imagen</h2>
+
+            <div class="content">
+                <img id="clickeable-image" src="assets/img/hinata.png" alt="">
+            </div>
+
+        </section>
+
+        <section class="part_2">
+            <h2>Pide stickers (max 10)</h2>
+
+            <div class="content">
+                <div class="stickers">
+                    <div class="sticker">
+                        <img src="assets/img/maruko1.png">
+                        <input id="sticker-1" type="number" value="0" min="0" max="10">
+                    </div>
+
+                    <div class="sticker">
+                        <img src="assets/img/maruko2.png">
+                        <input id="sticker-2" type="number" value="0" min="0" max="10">
+                    </div>
+
+                    <div class="sticker">
+                        <img src="assets/img/maruko3.png">
+                        <input id="sticker-3" type="number" value="0" min="0" max="10">
+                    </div>
+                </div>
+            </div>
+            <div class="buttons-container">
+                <button class="stickers-btn-clear">Limpiar</button>
+                <button class="stickers-btn">Confirmar</button>
+            </div>
+
+
+            <div class="stickers-alert"></div>
+
+        </section>
+
+        <section class="part_3">
+            <h2>Ingresa tu password <small>(pstt... 911 o 714)</small> </h2>
+
+            <div class="content">
+                <div class="password-inputs">
+                    <input type="number" value="0" min="0" max="9">
+                    <input type="number" value="0" min="0" max="9">
+                    <input type="number" value="0" min="0" max="9">
+                </div>
+
+                <button id="login">Ingresar</button>
+
+                <div class="login-alert"></div>
+
+            </div>
+
+        </section>
+
+    </div> <!-- /wrapper -->
+
+</body>
+</html>
